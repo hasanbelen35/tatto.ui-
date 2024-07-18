@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin-top: 150px;
+  background-color: black;
+  opacity: 0.9;
+  height: 700px;
+  width: 460px;
+  color: white;
+  text-align: left;
+  border-radius: 20px;
+  p {
+    color: lightgray;
+  }
+}
+.tattoo {
+  background-color: rgb(17, 16, 16);
+  margin: 6px 10px;
+  padding: 2px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tattoo i {
+  margin-left: auto;
+}
